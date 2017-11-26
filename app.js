@@ -80,7 +80,7 @@ app.post('/updateemployee/:id', function(req, res){
 });
 
 // Port mapping
-var port = process.env.port || 8080;
+var port = process.env.port || 3000;
 app.listen(port, function(){
     console.log("Server running @ port "+port);
 });
